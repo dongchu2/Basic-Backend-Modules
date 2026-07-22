@@ -19,6 +19,7 @@ app.get("/",(reg,res)=>{
 });
 
 app.use("/api/contact",contactRoutes);
+app.use("/api/auth",authRoutes);
 const PORT = process.env.PORT || 3001;
 
 mongoose
